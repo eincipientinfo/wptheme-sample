@@ -1,0 +1,18 @@
+#portfolio-meta-box-id, .portfolio-meta-wrap {
+    width: 100%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.portfolio-meta-wrap{
+    margin-bottom: 20px;
+}
+
+.portfolio-css {
+    width: 33%;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+}

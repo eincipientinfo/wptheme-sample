@@ -1,0 +1,113 @@
+div#custom_theme_option {
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    background: #fff;
+}
+div#custom_theme_option h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background: #0085ba;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+div#custom_theme_option .notice.is-dismissible {
+    padding-right: 38px;
+    position: relative;
+    background: #eaeaea;
+}
+form#custom_options_form {
+    border: 1px solid #0085ba;
+    padding: 0px 20px;
+}
+#custom_theme_option input[type=text], #custom_theme_option input[type=email] {
+    padding: 10px;
+    width: 100%;
+}
+.footer_logo_upload, .header_logo_upload, .favicon_upload, .innerpage_header_logo_upload {
+    padding: 10px;
+    background: #0085ba;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 20%;
+}
+.to_footer_logo, .to_header_logo, .to_innerpage_header_logo{
+    max-width: 300px;
+    max-height: 100px;
+    border: 1px solid #0085ba;
+    padding: 10px;
+    background: #ccc;
+}
+input.footer_logo_url, input.header_logo_url, input.favicon_url, input.innerpage_header_logo_url {
+    width: 78% !important;
+}
+span.remove_header_logo, span.remove_footer_logo, span.remove_favicon, span.remove_innerpage_header_logo {
+    position: absolute;
+    float: left;
+    margin-left: -13px;
+    cursor: pointer;
+    margin-top: -13px;
+}
+span.remove_footer_logo::after, span.remove_header_logo::after, span.remove_favicon::after, span.remove_innerpage_header_logo::after {
+    font-family: "dashicons";
+    content: "\f335";
+    border-radius: 50%;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff0000;
+}
+#social_links input {
+    width: 28% !important;
+    float: left;
+}
+.social_icons_set{
+    float: left;
+    width: 100%;
+}
+.sort_icon:after{
+    content: "\f545";
+    font: 400 20px/1em dashicons;
+    padding: 10px 10px 0px 0px;
+    cursor: move;
+    float: left;
+}
+span.s_button {
+    margin-top: 2px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    width: 40px;
+    float: left;
+    text-align: center;
+    padding: 9px 0px;
+}
+span.add_social{
+    background: #0085ba;
+}
+span.remove_social{
+    background: #ff0000;
+}
+ul#sortable li {
+    display: flex;
+}
+#custom_options_form p.submit {
+    text-align: center;
+}
+#custom_options_form p.submit input {
+    height: 40px;
+    padding: 0px 30px;
+    border-radius: 0px;
+}
+span.field_desc{
+    font-size: 10px;
+}
+textarea{
+    width: 100%;
+}
